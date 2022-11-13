@@ -92,16 +92,9 @@ class DeviceDataState extends State<PluginDeviceInfo> {
       height: 200,
       width: 350,
       decoration: BoxDecoration(
-        // boxShadow: [
-        //   BoxShadow(
-        //     color: Color.fromARGB(184, 224, 224, 54),
-        //     offset: Offset(0.0, 10.0),
-        //   )
-        // ],
         border: Border.all(
           color: const Color.fromARGB(255, 90, 90, 50),
           width: 5,
-          // style: BorderStyle.solid,
         ),
         color: const Color.fromARGB(255, 106, 106, 69),
         borderRadius: BorderRadius.circular(15),
